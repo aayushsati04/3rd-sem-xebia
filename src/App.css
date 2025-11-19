@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #f6f9ff, #e5f0ff);
+  min-height: 100vh;
+}
+
+.app {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.search-form input {
+  padding: 12px 16px;
+  margin: 10px 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 200px;
+  outline: none;
+  transition: 0.3s;
+}
+.search-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px #aad4ff;
+}
+
+.search-form button {
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.search-form button:hover {
+  background: #0059c9;
+}
+
+.results {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bus-card {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+.bus-card:hover {
+  transform: translateY(-5px);
+}
+
+.bus-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+.bus-card p {
+  font-size: 1rem;
+  margin: 6px 0;
+}
+
+.bus-card button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.bus-card button:hover {
+  background: #218838;
+}
